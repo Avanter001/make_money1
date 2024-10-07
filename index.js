@@ -14,3 +14,4 @@ function makeMoney() {
 setInterval(makeMoney, 60 * 1000);
 console.log("Started..");
 makeMoney();
+client.login(process.env.TOKEN);
